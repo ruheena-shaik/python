@@ -1,0 +1,11 @@
+#last word string count
+s= input("Enter the string:")
+i=len(s)-1
+count = 0
+
+while i>=0 and s[i] ==" ":
+    i=i-1
+while i>=0 and s[i] !=" ":
+    count= count + 1
+    i=i-1
+print(count)
